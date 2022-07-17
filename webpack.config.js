@@ -9,7 +9,7 @@ module.exports = {
             path.join(__dirname, "./src/scss/style.scss"),
         ]
     },
-    devtool: "source-map",
+    devtool: "inline-source-map",
     output: {
         filename: "index.min.js"
     },
